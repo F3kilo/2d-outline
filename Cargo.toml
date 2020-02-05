@@ -1,5 +1,5 @@
 [package]
-name = "outline"
+name = "outline_2d"
 version = "0.1.0"
 authors = ["f3kilo <f3kilo@yandex.ru>"]
 edition = "2018"
