@@ -1,0 +1,12 @@
+[package]
+name = "outline"
+version = "0.1.0"
+authors = ["f3kilo <f3kilo@yandex.ru>"]
+edition = "2018"
+license = "MIT"
+description = "2D euclide polygon outline tools"
+repository = "https://github.com/F3kilo/2d-outline"
+keywords = ["2d", "geometry", "polygon", "outline"]
+
+[dependencies]
+glam = "0.8.5"
