@@ -35,7 +35,7 @@ impl Outline {
     /// * `i` - index of vertex. May be negative;
     pub fn convex(&self, i: isize) -> bool {
         let (_, sin) = self.inner_angle_cos_sin(i);
-        return sin > 0f32;
+        sin > 0f32
     }
 
     /// Test if angle is concave;
@@ -72,7 +72,7 @@ impl Outline {
     /// # Arguments
     /// * `i` - index of vertex. May be negative;
     pub fn outer_angle(&self, i: isize) -> f32 {
-        return 2f32 * std::f32::consts::PI - self.inner_angle(i);
+        2f32 * std::f32::consts::PI - self.inner_angle(i)
     }
 }
 
